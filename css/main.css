@@ -1,1 +1,10 @@
 /* Place CSS styles here */
+body{
+    background-color: lightpink;
+}
+img{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+}
