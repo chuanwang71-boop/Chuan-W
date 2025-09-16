@@ -3,12 +3,32 @@ body{
     font-size: 16px;
 }
 
+h1,h2,h3{
+    background-color:white;
+    border: 4px solid black;
+    color: pink;
+    text-shadow: 1px 2px 3px #000001;
+
+}
 h1 {
     font-size: 98px;
     text-align: center;
-    background-color: red;
+    background-color:white;
     border: 4px solid black;
+    color: pink;
+    text-shadow: 1px 2px 3px #000001;
 
+}
+h2 {
+    font-size: 64px;
+    text-align: center;
+    color: blueviolet;
+}
+
+h3{
+    font-size: 52px;
+    text-align: center;
+    color: aqua;
 }
 
 img{
@@ -27,10 +47,24 @@ a:hover {
 }
 div{
     font-size: 36px;
-    color: blue;
+    color: hotpink;
     text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 ul {
     color: red;
+}
+
+.cat-cow{
+    background-color: pink;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    
 }
